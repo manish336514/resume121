@@ -1,0 +1,17 @@
+{
+    "plugins": [
+        "@babel/plugin-proposal-optional-chaining",
+        [
+            "css-modules-transform",
+            {
+                "extractCss": {
+                    "devMode": true,
+                    "dir": "./",
+                    "relativeRoot": "./src/package",
+                    "filename": "[path]/[name].css"
+                }
+            }
+        ],
+        "babel-plugin-inline-react-svg"
+    ]
+}
