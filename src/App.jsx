@@ -70,16 +70,16 @@ function App() {
                 disableSortableExperience: false,
                 maxCardsPerRow: 3
             }}
-            additionalNodes={{
-                banner: {
-                    actionsButtons: mode === 'edit' && (
-                        <Button variant="outlined" onClick={handleClick} color={'light'}>
-                            <SaveIcon className={classes.saveIcon} />
-                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
-                        </Button>
-                    )
-                }
-            }}
+            // additionalNodes={{
+            //     banner: {
+            //         actionsButtons: mode === 'edit' && (
+            //             <Button variant="outlined" onClick={handleClick} color={'light'}>
+            //                 <SaveIcon className={classes.saveIcon} />
+            //                 <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
+            //             </Button>
+            //         )
+            //     }
+            // }}
         />
     );
 }
