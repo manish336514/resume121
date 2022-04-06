@@ -9,6 +9,7 @@ As you can see on [the reference site](https://vincent-cotro.welovedevs.com), we
 This can be done via the `additionalNodes.banner.actionButton` props
 
 ```javascript
+{% raw %}
     <DeveloperProfile
         mode={'readOnly'}
         data={resume}
@@ -22,6 +23,7 @@ This can be done via the `additionalNodes.banner.actionButton` props
             }
         }}
     />
+    {% endraw %}
 ``` 
 
 Your Button component can trigger anything. You could for instance open a dialog with a form  : 
